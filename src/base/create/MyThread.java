@@ -12,7 +12,7 @@ public class MyThread extends Thread {
         System.out.println("继承Thread类方式，创建线程。");
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         MyThread myThread = new MyThread();
         myThread.run();
     }
